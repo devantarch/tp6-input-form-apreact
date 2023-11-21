@@ -1,3 +1,85 @@
-input {
-  margin:10px;
+.registro-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
 }
+
+.title {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  color: purple;
+  margin-bottom: 18px;
+}
+
+label {
+  display: block;
+ 
+}
+
+.titulos-label{
+  font-size: 12px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 2px;
+  margin-inline-start: 10px;
+}
+
+input {
+  display: block;
+  align-content: center;
+  margin-left: 10px;
+  font-size: 12px;
+  width: 90%;
+  padding: 2px;
+  margin-top: 5px;
+  border-radius: 10px;
+  border-color: blue;
+}
+
+.btn {
+  background-color: #a43393;
+  border: 2px solid #a43393;
+  padding: 3px;
+  border-radius: 12px;
+  cursor: pointer;
+  display: inline-block;
+  translate: 135px;
+  color: black;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: auto;
+  transition: all 0.2s ease;
+  width: 90px;
+}
+
+.btn:hover{
+  background-color: #7a10d1; 
+  border: 1px solid #7a10d1; 
+  color: white;
+}
+
+.formulario {
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 18px;
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(164,51,147,0.6643032212885154) 25%, rgba(191,13,136,1) 47%, rgba(40,224,199,1) 72%, rgba(42,235,200,1) 100%, rgba(45,253,202,1) 100%);
+}
+
+.enviado {
+  color: black;
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
